@@ -13,7 +13,6 @@ class Map:
         for x in range(3):
             for y in range(3):
                 self.rooms[(x, y)] = Room(x,y)
-        print(self.rooms)
 
     def print_rooms(self):
         print("Map Layout:")
